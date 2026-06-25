@@ -9,4 +9,4 @@ describe("Verificación de Mail", () => {
     test("probar mail null", () => {
         expect(verificaMail(null)).not.toBeTruthy();
     })
-})
+});
